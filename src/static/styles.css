@@ -1,8 +1,4 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
+
 }
 
 body {
@@ -84,12 +80,13 @@ section h3 {
   display: block;
   margin-bottom: 8px;
   color: #1a237e;
+  }
+
+  .participants-list {
+    margin-left: 20px;
+    list-style-type: none;
 }
 
-.participants-list {
-  margin-left: 20px;
-  list-style-type: disc;
-}
 
 .participants-list li {
   margin-bottom: 5px;
